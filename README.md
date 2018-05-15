@@ -5,7 +5,9 @@ From Gmail, you can add a label (tag) to an email thread so that it gets recorde
 
 This script is a Google Apps Script meant to be run from a Google Sheets, which will keep track of emails being recorded.
 
-A time-driven trigger will call the script every 15 minutes or so (whichever time interval is best).
+A time-driven trigger will call the script every 15 minutes or so (whichever time interval is best):
+
+https://developers.google.com/apps-script/guides/triggers/installable#managing_triggers_manually
 
 The script will lookup all email threads that have a label (tag), and will call an external API to record new emails.
 
