@@ -7,7 +7,7 @@ This script is a Google Apps Script meant to be run from a Google Sheets, which 
 
 A time-driven trigger will call the script every 15 minutes or so (whichever time interval is best).
 
-The script will lookup all email threads that have a preassigned label (tag), and will call an external API.
+The script will lookup all email threads that have a preassigned label (tag), and will call an external API to record new emails.
 
 Currently only CiviCRM is supported, but any service can be easily added as a plugin.
 
