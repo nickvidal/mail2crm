@@ -69,7 +69,7 @@ function pushTag() {
 
        if ((index.indexOf(id) < 0) && (email != "") && !(messages[j].isDraft())) {
          if (!firstRecord) {
-           // Record only first email
+           // Record only first email to show up in index
            firstRecord = 1;
            sheet.appendRow([id, date, email, firstName, lastName]);
          }
