@@ -1,5 +1,5 @@
 # pushtag
-Record emails that are tagged (e.g. in a CRM).
+Record emails that are tagged.
 
 From Gmail, you can add a label (tag) to an email thread so that it gets recorded at an external service (such as a CRM, for example).
 
