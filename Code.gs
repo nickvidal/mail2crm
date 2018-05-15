@@ -1,6 +1,6 @@
 function pushTag() {
  // Set your label and plugin
- var label = "OSI";
+ var tag = "YOURLABEL";
  var plugin = "CiviCRM";
   
  var plugins = {
@@ -14,7 +14,7 @@ function pushTag() {
  var values = range.getValues();
  var index = values.join().split(',');
 
- var label = GmailApp.getUserLabelByName(label);
+ var label = GmailApp.getUserLabelByName(tag);
  var threads = label.getThreads(0, 10);
   
  for (var i = 0; i < threads.length; i++) {
