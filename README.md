@@ -1,7 +1,7 @@
 # pushtag
 Log emails that are tagged.
 
-From Gmail, you can add a label (tag) to an email thread so that it gets logged in an external service (such as a CRM, for example).
+From Gmail, a label (tag) can be added to an email thread so that it gets logged in an external service (such as a CRM, for example).
 
 This script is a Google Apps Script meant to be run from a Google Sheets, which will keep track of emails being logged.
 
