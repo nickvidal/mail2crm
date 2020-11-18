@@ -1,4 +1,4 @@
-From Gmail, a label can be added to an email thread to sinalize that the user wants to make a copy of this thread to an external service (such as a CRM, for example).
+From Gmail, a label can be added to an email thread to indicate that the user wants to make a copy of this thread to an external service (such as a CRM, for example).
 
 This script is a Google Apps Script meant to be run from a Google Sheets, which will keep track of emails being copied.
 
